@@ -1,0 +1,9 @@
+spawn:
+  enabled: true
+  message: "<red>There is no spawn on this server!"
+back:
+  enabled: true
+  message: "<red>There is no /back on this server!"
+sethome:
+  enabled: true
+  message: "<red>To set a home, claim some land! Use /claim to get started."

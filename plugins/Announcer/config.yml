@@ -1,0 +1,91 @@
+# The amount of time used for the interval
+interval: 30
+# The unit of time used for the interval
+#  Can be SECONDS, MINUTES, or HOURS
+interval-time-unit: 'MINUTES'
+random-message-order: true
+gradient:
+  color-1: '#fafa6e'
+  color-2: '#a14040'
+  color-3: '#fafa6e'
+  speed: 0.07
+bungee:
+  enable: false
+returning-player:
+  title-settings:
+    enabled: false
+    duration-seconds: 3
+    fade-in: 1000
+    fade-out: 1000
+    title: '<animate>SemiVanilla</animate>'
+    subtitle: 'Survival'
+    bedrock:
+      enable: false
+      duration-seconds: 3
+      fade-in: 1000
+      fade-out: 1000
+      title: '<gradient:#fafa6e:#a14040>SemiVanilla</gradient>'
+      subtitle: 'Survival'
+  join-sounds:
+    enabled: false
+    name: 'music.menu'
+    pitch: 1
+    source: master
+    volume: 0.8
+new-player:
+  title-settings:
+    enabled: false
+    duration-seconds: 3
+    fade-in: 1000
+    fade-out: 1000
+    title: '<animate>SemiVanilla</animate>'
+    subtitle: 'Survival'
+    bedrock:
+      enable: false
+      duration-seconds: 3
+      fade-in: 1000
+      fade-out: 1000
+      title: '<gradient:#fafa6e:#a14040>SemiVanilla</gradient>'
+      subtitle: 'Survival'
+  join-sounds:
+    enabled: false
+    name: 'music.menu'
+    pitch: 1
+    source: master
+    volume: 0.8
+messages:
+  0:
+    - '<strikethrough>                                                                 <reset>'
+    - ''
+    - 'Vote every day to support the server and get'
+    - 'FREE CRATES! <click:open_url:https://semivanilla.com/vote><gradient:#fafa6e:#a14040>https://semivanilla.com/vote</gradient></click>'
+    - ''
+    - '<strikethrough>                                                                 <reset>'
+  1:
+    - '<strikethrough>                                                                 <reset>'
+    - ''
+    - 'Please consider donating to help us stay open!'
+    - 'Store: <click:open_url:https://store.semivanilla.com><gradient:#fafa6e:#a14040>https://store.semivanilla.com</gradient></click>'
+    - ''
+    - '<strikethrough>                                                                 <reset>'
+  2:
+    - '<strikethrough>                                                                 <reset>'
+    - ''
+    - 'Join the community! Find us on Discord'
+    - 'at <click:open_url:https://discord.gg/CxQP7SD9Ah><gradient:#fafa6e:#a14040>https://discord.gg/CxQP7SD9Ah</gradient></click>!'
+    - ''
+    - '<strikethrough>                                                                 <reset>'
+  3:
+    - '<strikethrough>                                                                 <reset>'
+    - ''
+    - 'Looking for other players? Check the public claims!'
+    - 'Do <gradient:#fafa6e:#a14040>/claims</gradient> and toggle public claims in the GUI.'
+    - ''
+    - '<strikethrough>                                                                 <reset>'
+  10:
+    - '<strikethrough>                                                                 <reset>'
+    - ''
+    - 'Unclaimed land can be griefed! Make sure you claim'
+    - 'your land. <click:open_url:https://semivanilla.com/features/claiming><gradient:#fafa6e:#a14040>https://semivanilla.com/features/claiming</gradient></click>'
+    - ''
+    - '<strikethrough>                                                                 <reset>'
