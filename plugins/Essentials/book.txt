@@ -22,9 +22,9 @@ Protect your home by claiming land with GriefPrevention!
 &0 
 &cWarning: unclaimed land is griefable!
 &0 
-You can claim up to 1,000 blocks initially. You get 1,000 more claim blocks every mining level!
+You can claim up to 1,000 blocks initially. You get 100 more claim blocks every hour!
 &0 
-You can create up to 5 claims. (You can increase this limit at our donation store!)
+You can create up to 3 claims.
 &0 
 &lCREATING A NEW CLAIM:
 &0 

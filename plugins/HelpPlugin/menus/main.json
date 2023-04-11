@@ -62,8 +62,8 @@
       "material": "EMERALD",
       "name": "<green>Store",
       "lore": [
-        "<white>Claim your <gradient:#55ff55:#008876>FREE RANK</gradient> in the",
-        "<white>donation store!",
+        "<white>Donate to help us share the",
+        "<white>adventure for years to come!",
         "",
         "<gray>Click to get link.</gray>"
       ],
@@ -79,8 +79,8 @@
       "material": "NETHER_STAR",
       "name": "<aqua>Vote",
       "lore": [
-        "<white>Get <gradient:#55e9ff:#006d88>FREE LOOT CRATES</gradient> by",
-        "<white>voting every day!",
+        "<white>Vote every day to support the",
+        "<white>server! Thank you!",
         "",
         "<gray>Click to get link.</gray>"
       ],
@@ -97,7 +97,7 @@
       "name": "<light_purple>Discord",
       "lore": [
         "<white>Join the community!",
-        "<white>Welcome to New Lands MC!",
+        "<white>Welcome to SemiVanilla!",
         "",
         "<gray>Click to get link.</gray>"
       ],

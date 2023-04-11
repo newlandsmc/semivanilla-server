@@ -24,9 +24,9 @@ GriefPrevention:
     ProtectLlamas: true
     InitialBlocks: 1000
     Claim Blocks Accrued Per Hour:
-      Default: 0
+      Default: 100
     Max Accrued Claim Blocks:
-      Default: 98000
+      Default: 100000
     Accrued Idle Threshold: -1
     AccruedIdlePercent: 100
     AbandonReturnRatio: 1.0

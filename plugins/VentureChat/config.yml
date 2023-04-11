@@ -74,7 +74,7 @@ offline_server_acknowledgement: false
 unmuteinterval: 60
 
 # Enables or disabled BungeeCord messaging
-bungeecordmessaging: false
+bungeecordmessaging: true
 
 # Sound for message notification
 # Enter 'None' to disable the sound
@@ -129,24 +129,6 @@ jsonformatting:
         click_action: 'suggest_command'
         click_text: '/msg {player_name}'
   founder:
-    priority: 12
-    json_attributes:
-      venturechat_channel_prefix:
-        hover_text:
-        - '&f {server_name} &7Click to teleport!'
-        click_action: 'run_command'
-        click_text: '/server {server_name}'
-      nickname:
-        hover_text:
-        - '&f {player_name} &7Click to message!'
-        click_action: 'suggest_command'
-        click_text: '/msg {player_name}'
-      luckperms_prefix:
-        hover_text:
-        - '&fSupport the server: &bstore.semivanilla.com&f!'
-        click_action: 'run_command'
-        click_text: '/help store'
-  awoken:
     priority: 1
     json_attributes:
       venturechat_channel_prefix:
@@ -161,7 +143,25 @@ jsonformatting:
         click_text: '/msg {player_name}'
       luckperms_prefix:
         hover_text:
-        - '&fClaim your free rank at: &bstore.semivanilla.com&f!'
+        - '&fSupport the server: &bsemivanilla.tebex.io&f!'
+        click_action: 'run_command'
+        click_text: '/help store'
+  awoken:
+    priority: 12
+    json_attributes:
+      venturechat_channel_prefix:
+        hover_text:
+        - '&f {server_name} &7Click to teleport!'
+        click_action: 'run_command'
+        click_text: '/server {server_name}'
+      nickname:
+        hover_text:
+        - '&f {player_name} &7Click to message!'
+        click_action: 'suggest_command'
+        click_text: '/msg {player_name}'
+      luckperms_prefix:
+        hover_text:
+        - '&fClaim your free rank at: &bsemivanilla.tebex.io&f!'
         click_action: 'run_command'
         click_text: '/help store'
     
@@ -267,7 +267,7 @@ channels:
     default: true
     distance: 0
     cooldown: 0
-    bungeecord: false
+    bungeecord: true
     alias: g
     permissions: None
     speak_permissions: None
@@ -282,7 +282,7 @@ channels:
     default: false
     distance: 0
     cooldown: 0
-    bungeecord: false
+    bungeecord: true
     alias: s
     permissions: staffchannel
     speak_permissions: None

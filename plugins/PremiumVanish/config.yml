@@ -515,7 +515,7 @@ MiscellaneousOptions:
     #
     # Important: Please make sure that ip-forwarding is enabled on your Bungee AND your Bukkit servers.
     # It's also important that your database is firewalled so it's not accessible from the internet.
-    Enable: false
+    Enable: true
     # The ip of your database server
     Ip: "localhost"
     # The port of your database, usually 3306; just leave it empty if there is no specific port

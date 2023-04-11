@@ -129,7 +129,7 @@ scripting:
     dir: craftscripts
 
 saving:
-    dir: /var/minecraft/newlands/shared/schematics
+    dir: schematics
 
 files:
     allow-symbolic-links: false

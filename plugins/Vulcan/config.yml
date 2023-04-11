@@ -455,7 +455,7 @@ settings:
   inject-early: true
   max-velocity-ticks: 50
   max-logs-file-size: 7500
-  server-name: Survival
+  server-name: SemiVanilla
   async-alerts: true
   enable-api: false
   update-checker: false
@@ -522,9 +522,9 @@ discord-webhook:
     # Whether or not Discord Webhook Alerts should be enabled
     enabled: true
     # Paste the URL to your webhook here. For how to create a webhook, please see https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-    url: https://discord.com/api/webhooks/965828215140663327/OOIpx7BzCn66ZLOcZQuvCs03Ikqg8zmvQWvvdh4RoOV-oxJRTzZhr7s8ysH8aDpDVFzu
+    url: https://discord.com/api/webhooks/1089363411768463450/Y_WSGZ4jLqNqQ72YUSMBDl2nEa9WMHwM6mbOBahoMBLaOI39WJefWvFz684P6Zx0ubIw
     # The avatar for the webhook
-    avatar: https://newlandsmc.com/assets/images/apple-touch-icon.png
+    avatar: https://semivanilla.com/assets/images/apple-touch-icon.png
     # Thumbnail for the webhook
     thumbnail: http://cravatar.eu/avatar/%name%/64.png
     # Colors for the webhook (use a website like https://www.rapidtables.com/web/color/RGB_Color.html to pick colors)
@@ -532,7 +532,7 @@ discord-webhook:
     color-g: 140
     color-b: 3
     # Username of the webhook
-    username: Vulcan Survival
+    username: Vulcan
     # Title of the webhook
     title: Vulcan Alert
     # Description of the webhook
@@ -549,13 +549,13 @@ discord-webhook:
   punishments:
     # Same settings and explanations as above
     enabled: true
-    url: https://discord.com/api/webhooks/965828215140663327/OOIpx7BzCn66ZLOcZQuvCs03Ikqg8zmvQWvvdh4RoOV-oxJRTzZhr7s8ysH8aDpDVFzu
-    avatar: https://newlandsmc.com/assets/images/apple-touch-icon.png
+    url: https://discord.com/api/webhooks/1089363411768463450/Y_WSGZ4jLqNqQ72YUSMBDl2nEa9WMHwM6mbOBahoMBLaOI39WJefWvFz684P6Zx0ubIw
+    avatar: https://semivanilla.com/assets/images/apple-touch-icon.png
     thumbnail: http://cravatar.eu/avatar/%name%/64.png
     color-r: 255
     color-g: 0
     color-b: 0
-    username: Vulcan Survival
+    username: Vulcan
     title: Vulcan Punishment
     description: '**%player%** was punished for %check% (Type %type%) [VL: %vl%]'
     content: ''
@@ -3523,7 +3523,6 @@ checks:
           max: 3
           multiple: 0.5
           decay: 0.4
-      # disabled to support VR
       m:
         enabled: false
         punishable: true
@@ -3729,7 +3728,6 @@ checks:
         minimum-tps: 19.0
         punishment-commands:
         - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-      #        - 'warn -s %player% Hacked client detected.'
       '1':
         enabled: true
         punishable: true
@@ -3790,6 +3788,38 @@ checks:
         minimum-tps: 19.0
         punishment-commands:
         - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+      '6':
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        buffer:
+          max: 3
+          multiple: 0.25
+          decay: 0.05
+      '7':
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        buffer:
+          max: 15
+          multiple: 0.25
+          decay: 0.05
     inventory:
       a:
         enabled: false
