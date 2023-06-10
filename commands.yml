@@ -27,3 +27,5 @@ aliases:
   - griefpreventiontp:claims $1-
   homes:
   - griefpreventiontp:claims $1-
+  manclaim:
+  - griefpreventiontp:manageclaim $1-
